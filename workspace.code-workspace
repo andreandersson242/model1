@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		{
+			"name": "Attach to Chrome",
+			"port": 9222,
+			"request": "attach",
+			"type": "pwa-chrome",
+			"webRoot": "${workspaceFolder}"
+		},
+			{
+				"type": "pwa-msedge",
+				"request": "launch",
+				"name": "Open case-1.html",
+				"file": "/Users/andre/Desktop/skolan/programmering/case-1.html"
+			}
+		]
+	}
+}
